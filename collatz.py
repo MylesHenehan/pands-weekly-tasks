@@ -1,11 +1,16 @@
-# Program that asks the user to input any positive integer and outputs the successive values of the following calculation: if it is even, divide it by two, but if it is odd, multiply it by three and add one
+# Program that asks the user to input any positive integer and outputs the successive values of the following calculation: 
+# if it is even, divide it by 2, but if it is odd, multiply it by 3 and add 1
+# this should stop when it reaches 0
 
 # Author: Myles Henehan
 
-numbers = []
 startinginteger = int(input("Please enter any integer: "))
 
 while startinginteger != 1:
-    numbers = numbers.append(startinginteger)
+    print(startinginteger)
+    if startinginteger % 2 == 0:
+        startinginteger = startinginteger // 2
+    else:
+        startinginteger = (startinginteger * 3) +1
 
-print(numbers)
+print(startinginteger)
