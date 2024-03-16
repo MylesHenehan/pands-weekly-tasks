@@ -5,7 +5,7 @@ import sys # From research, I can see that we need to use the sys module in Pyth
 
 FILENAME = sys.argv[1]
 
-# From my understanding, this function treats any arguments separated by spaces in the command line as list items.
+# From my understanding, this function treats any arguments separated by spaces after the command "Python" in the command line as list items.
 # The 1 here denotes the second list item (since lists start from 0).
 # Interestingly, if we use 0, the program will print itself out.
 
@@ -37,9 +37,11 @@ def countletter(FILENAME, e):
             for char in line:
                 if char == "e":
                     count = count + 1
+                elif char == "E":
+                    count = count + 1 #iterates until the whole file has been read
     return count
 
-# let's say that the final count is the return of this function
+# the final count is the return of this function
 finalcount = countletter(FILENAME, "e")
 
 #depending on how many times E appears, we may want to print out a different output
@@ -49,3 +51,6 @@ elif finalcount == 1:
     print(f"The letter E appears once in this file.")
 else:
     print(f"The letter E appears {finalcount} times in this file.")
+
+
+#Note to self: There has got to be a more simple way of dealing with lower case and upper case...
