@@ -4,10 +4,10 @@
 
 
 def sqrt(startingnum, tolerance=1e-6): 
-# We start by defining a function to do this. According to Pandy(2024), this is an appropriate tolerance level for Newton's method.
+# We start by defining a function to do this. According to Pandy (2024), this is an appropriate tolerance level for Newton's method.
     
     guess = startingnum/2
-# We need to guess any positive number, so let's start with half of the input
+# We need to guess any positive number, so let's start with half of the input. 
     
     while True:
         newguess = 0.5 * (guess + startingnum / guess)  
@@ -34,7 +34,3 @@ answer = sqrt(startingnum)
 # Now we can use our pre-made function to get the answer.
 
 print(f'The square root of {startingnum} is {answer}')
-
-
-# Reference: Pandy, H. (2024). "Newton Raphson method in Python". Last Updated 16 April 2024. Available at: https://flexiple.com/python/newton-raphson-method-python.
-

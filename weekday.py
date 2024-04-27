@@ -3,7 +3,7 @@
 # Instructions: Program should run and tell you whether or not it's a weekday.
 
 import datetime
-# For this, we need the module datetime (according to W3Schools)
+# For this, we need the module datetime (according to W3Schools).
 
 currentdate = datetime.datetime.today()
 # We first use this function to get today's date
@@ -34,5 +34,4 @@ else:
 # Depending on whether or not it's the weekend, the program will send a different message.
 
 
-# Source: W3Schools: https://www.w3schools.com/python/python_datetime.asp). 
 # Note: On this website, it says that Sunday is 0 in the weekday function. But when testing, this appears not to be the case.
