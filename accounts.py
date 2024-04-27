@@ -1,7 +1,6 @@
 # Weekly Task 3
 # Author: Myles Henehan
-# Instructions: Create a program reads in a 10 digit account number
-# This program should then output that number again but with only the last 4 digits visible (first 6 denoted by X)
+# Instructions: Create a program reads in a 10 digit account number. This program should then output that number again but with only the last 4 digits visible (first 6 denoted by X).
 
 
 accountnumber = input("Please enter your 10 digit account number: ")
