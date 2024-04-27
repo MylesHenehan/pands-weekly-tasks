@@ -30,6 +30,6 @@ Program aim: To display a histogram of 1000 random values and an exponential fun
 
 ## References:
 - Ndlovu, V. (2019). "Working With Files in Python". Available at: https://realpython.com/working-with-files-in-python/.
-- Pandy, H. (2024). "Newton Raphson method in Python". Last Updated 16 April 2024. Available at: https://flexiple.com/python/newton-raphson-method-python.
-- W3Schools. (2024). "Python Datetime". Available at: https://www.w3schools.com/python/python_datetime.asp
 - OpenAI. (2024). "OpenAI API Documentation". Retrieved from https://beta.openai.com/docs/.
+- Pandy, H. (2024). "Newton Raphson method in Python". Last Updated 16 April 2024. Available at: https://flexiple.com/python/newton-raphson-method-python.
+- W3Schools. (2024). "Python Datetime". Available at: https://www.w3schools.com/python/python_datetime.asp.
